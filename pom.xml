@@ -10,7 +10,7 @@
 	<groupId>com.bindy.poc</groupId>
 	<artifactId>camel-csv-bindy</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>camel-csv-bindy</name>
+	<name>camel-bindy-poc</name>
 	<description>Demo project for Spring Boot, Camel with Bindy and CSV file</description>
 
 	<properties>
@@ -37,8 +37,8 @@
 		</dependency>
 		<dependency>
 			<groupId>org.apache.camel</groupId>
-			<artifactId>camel-test</artifactId>
-			<version>${camel-version}</version>
+            <artifactId>camel-test-spring</artifactId>
+            <version>${camel-version}</version>
 			<scope>test</scope>
 		</dependency>
 
