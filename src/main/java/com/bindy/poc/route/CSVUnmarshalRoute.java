@@ -19,7 +19,7 @@ public class CSVUnmarshalRoute extends RouteBuilder {
                 .routeId("csvUnmarshallId")
                 .unmarshal(dataFormat)
                 .log(LoggingLevel.INFO, "${body}")
-                .to("direct:output")
+                .to("mock:output")
                 ;
     }
 }
